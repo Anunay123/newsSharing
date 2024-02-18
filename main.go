@@ -19,7 +19,7 @@ func main() {
 	mainRouter := gin.Default()
 	mainRouter.GET("/ping", func(ginContext *gin.Context) {
 		ginContext.JSON(http.StatusOK, gin.H{
-			"message": "pong",
+			"message": "pong !!!!",
 		})
 	})
 
